@@ -1,0 +1,975 @@
+[
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "imutils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "imutils",
+        "description": "imutils",
+        "detail": "imutils",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDraw",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFont",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "urlopen",
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "isExtraImport": true,
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "dbr",
+        "description": "dbr",
+        "isExtraImport": true,
+        "detail": "dbr",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "dbr",
+        "description": "dbr",
+        "isExtraImport": true,
+        "detail": "dbr",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "compare",
+        "importPath": "ColorDetection",
+        "description": "ColorDetection",
+        "isExtraImport": true,
+        "detail": "ColorDetection",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "SpecifyCheckingArea",
+        "description": "SpecifyCheckingArea",
+        "isExtraImport": true,
+        "detail": "SpecifyCheckingArea",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "SpecifyCheckingArea",
+        "description": "SpecifyCheckingArea",
+        "isExtraImport": true,
+        "detail": "SpecifyCheckingArea",
+        "documentation": {}
+    },
+    {
+        "label": "capture_frame",
+        "importPath": "capture_image",
+        "description": "capture_image",
+        "isExtraImport": true,
+        "detail": "capture_image",
+        "documentation": {}
+    },
+    {
+        "label": "capture_frame",
+        "importPath": "capture_image",
+        "description": "capture_image",
+        "isExtraImport": true,
+        "detail": "capture_image",
+        "documentation": {}
+    },
+    {
+        "label": "capture_frame",
+        "importPath": "capture_image",
+        "description": "capture_image",
+        "isExtraImport": true,
+        "detail": "capture_image",
+        "documentation": {}
+    },
+    {
+        "label": "capture_frame",
+        "importPath": "capture_image",
+        "description": "capture_image",
+        "isExtraImport": true,
+        "detail": "capture_image",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "encode_image_to_base64",
+        "importPath": "Image_Processing",
+        "description": "Image_Processing",
+        "isExtraImport": true,
+        "detail": "Image_Processing",
+        "documentation": {}
+    },
+    {
+        "label": "Coordinates",
+        "importPath": "Object.Coordinates",
+        "description": "Object.Coordinates",
+        "isExtraImport": true,
+        "detail": "Object.Coordinates",
+        "documentation": {}
+    },
+    {
+        "label": "serialize_coordinates",
+        "importPath": "Object.Coordinates",
+        "description": "Object.Coordinates",
+        "isExtraImport": true,
+        "detail": "Object.Coordinates",
+        "documentation": {}
+    },
+    {
+        "label": "async_checking",
+        "importPath": "async_checking",
+        "description": "async_checking",
+        "isExtraImport": true,
+        "detail": "async_checking",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "gmtime",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "strftime",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "paho.mqtt.client",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "paho.mqtt.client",
+        "description": "paho.mqtt.client",
+        "detail": "paho.mqtt.client",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "cv2,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2.",
+        "description": "cv2.",
+        "detail": "cv2.",
+        "documentation": {}
+    },
+    {
+        "label": "RPi.GPIO",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "RPi.GPIO",
+        "description": "RPi.GPIO",
+        "detail": "RPi.GPIO",
+        "documentation": {}
+    },
+    {
+        "label": "Adafruit_SSD1306",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "Adafruit_SSD1306",
+        "description": "Adafruit_SSD1306",
+        "detail": "Adafruit_SSD1306",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "decode",
+        "importPath": "pyzbar.pyzbar",
+        "description": "pyzbar.pyzbar",
+        "isExtraImport": true,
+        "detail": "pyzbar.pyzbar",
+        "documentation": {}
+    },
+    {
+        "label": "decode",
+        "importPath": "zbarscanner",
+        "description": "zbarscanner",
+        "isExtraImport": true,
+        "detail": "zbarscanner",
+        "documentation": {}
+    },
+    {
+        "label": "Camera",
+        "importPath": "SimpleCV",
+        "description": "SimpleCV",
+        "isExtraImport": true,
+        "detail": "SimpleCV",
+        "documentation": {}
+    },
+    {
+        "label": "pyzbar",
+        "importPath": "pyzbar",
+        "description": "pyzbar",
+        "isExtraImport": true,
+        "detail": "pyzbar",
+        "documentation": {}
+    },
+    {
+        "label": "detect",
+        "kind": 2,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "def detect(image):\n\t# convert the image to grayscale\n\tgray = image\n\t# compute the Scharr gradient magnitude representation of the images\n\t# in both the x and y direction using OpenCV 2.4\n\tddepth = cv2.cv.CV_32F if imutils.is_cv2() else cv2.CV_32F\n\tgradX = cv2.Sobel(gray, ddepth=ddepth, dx=1, dy=0, ksize=-1)\n\t# subtract the y-gradient from the x-gradient\n\tgradient = cv2.subtract(gradX, gradY)\n\tgradient = cv2.convertScaleAbs(gradient)",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tgray",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tgray = image\n\t# compute the Scharr gradient magnitude representation of the images\n\t# in both the x and y direction using OpenCV 2.4\n\tddepth = cv2.cv.CV_32F if imutils.is_cv2() else cv2.CV_32F\n\tgradX = cv2.Sobel(gray, ddepth=ddepth, dx=1, dy=0, ksize=-1)\n\t# subtract the y-gradient from the x-gradient\n\tgradient = cv2.subtract(gradX, gradY)\n\tgradient = cv2.convertScaleAbs(gradient)\n\t# blur and threshold the image\n\tblurred = cv2.blur(gradient, (9, 9))",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tddepth",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tddepth = cv2.cv.CV_32F if imutils.is_cv2() else cv2.CV_32F\n\tgradX = cv2.Sobel(gray, ddepth=ddepth, dx=1, dy=0, ksize=-1)\n\t# subtract the y-gradient from the x-gradient\n\tgradient = cv2.subtract(gradX, gradY)\n\tgradient = cv2.convertScaleAbs(gradient)\n\t# blur and threshold the image\n\tblurred = cv2.blur(gradient, (9, 9))\n\t(_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)\n\t# construct a closing kernel and apply it to the thresholded image\n\tkernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tgradX",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tgradX = cv2.Sobel(gray, ddepth=ddepth, dx=1, dy=0, ksize=-1)\n\t# subtract the y-gradient from the x-gradient\n\tgradient = cv2.subtract(gradX, gradY)\n\tgradient = cv2.convertScaleAbs(gradient)\n\t# blur and threshold the image\n\tblurred = cv2.blur(gradient, (9, 9))\n\t(_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)\n\t# construct a closing kernel and apply it to the thresholded image\n\tkernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))\n\tclosed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tgradient",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tgradient = cv2.subtract(gradX, gradY)\n\tgradient = cv2.convertScaleAbs(gradient)\n\t# blur and threshold the image\n\tblurred = cv2.blur(gradient, (9, 9))\n\t(_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)\n\t# construct a closing kernel and apply it to the thresholded image\n\tkernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))\n\tclosed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)\n\t# perform a series of erosions and dilations\n\tclosed = cv2.erode(closed, None, iterations=4)",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tgradient",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tgradient = cv2.convertScaleAbs(gradient)\n\t# blur and threshold the image\n\tblurred = cv2.blur(gradient, (9, 9))\n\t(_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)\n\t# construct a closing kernel and apply it to the thresholded image\n\tkernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))\n\tclosed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)\n\t# perform a series of erosions and dilations\n\tclosed = cv2.erode(closed, None, iterations=4)\n\tclosed = cv2.dilate(closed, None, iterations=4)",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tblurred",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tblurred = cv2.blur(gradient, (9, 9))\n\t(_, thresh) = cv2.threshold(blurred, 225, 255, cv2.THRESH_BINARY)\n\t# construct a closing kernel and apply it to the thresholded image\n\tkernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))\n\tclosed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)\n\t# perform a series of erosions and dilations\n\tclosed = cv2.erode(closed, None, iterations=4)\n\tclosed = cv2.dilate(closed, None, iterations=4)\n\t# find the contours in the thresholded image\n\tcnts = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL,",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tkernel",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tkernel = cv2.getStructuringElement(cv2.MORPH_RECT, (21, 7))\n\tclosed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)\n\t# perform a series of erosions and dilations\n\tclosed = cv2.erode(closed, None, iterations=4)\n\tclosed = cv2.dilate(closed, None, iterations=4)\n\t# find the contours in the thresholded image\n\tcnts = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL,\n\t\tcv2.CHAIN_APPROX_SIMPLE)\n\tcnts = imutils.grab_contours(cnts)\n\t# if no contours were found, return None",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tclosed",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tclosed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)\n\t# perform a series of erosions and dilations\n\tclosed = cv2.erode(closed, None, iterations=4)\n\tclosed = cv2.dilate(closed, None, iterations=4)\n\t# find the contours in the thresholded image\n\tcnts = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL,\n\t\tcv2.CHAIN_APPROX_SIMPLE)\n\tcnts = imutils.grab_contours(cnts)\n\t# if no contours were found, return None\n\tif len(cnts) == 0:",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tclosed",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tclosed = cv2.erode(closed, None, iterations=4)\n\tclosed = cv2.dilate(closed, None, iterations=4)\n\t# find the contours in the thresholded image\n\tcnts = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL,\n\t\tcv2.CHAIN_APPROX_SIMPLE)\n\tcnts = imutils.grab_contours(cnts)\n\t# if no contours were found, return None\n\tif len(cnts) == 0:\n\t\treturn None\n\t# otherwise, sort the contours by area and compute the rotated",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tclosed",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tclosed = cv2.dilate(closed, None, iterations=4)\n\t# find the contours in the thresholded image\n\tcnts = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL,\n\t\tcv2.CHAIN_APPROX_SIMPLE)\n\tcnts = imutils.grab_contours(cnts)\n\t# if no contours were found, return None\n\tif len(cnts) == 0:\n\t\treturn None\n\t# otherwise, sort the contours by area and compute the rotated\n\t# bounding box of the largest contour",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tcnts",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tcnts = cv2.findContours(closed.copy(), cv2.RETR_EXTERNAL,\n\t\tcv2.CHAIN_APPROX_SIMPLE)\n\tcnts = imutils.grab_contours(cnts)\n\t# if no contours were found, return None\n\tif len(cnts) == 0:\n\t\treturn None\n\t# otherwise, sort the contours by area and compute the rotated\n\t# bounding box of the largest contour\n\tc = sorted(cnts, key=cv2.contourArea, reverse=True)[0]\n\trect = cv2.minAreaRect(c)",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tcnts",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tcnts = imutils.grab_contours(cnts)\n\t# if no contours were found, return None\n\tif len(cnts) == 0:\n\t\treturn None\n\t# otherwise, sort the contours by area and compute the rotated\n\t# bounding box of the largest contour\n\tc = sorted(cnts, key=cv2.contourArea, reverse=True)[0]\n\trect = cv2.minAreaRect(c)\n\tbox = cv2.cv.BoxPoints(rect) if imutils.is_cv2() else cv2.boxPoints(rect)\n\tbox = np.intp(box)",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tc",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tc = sorted(cnts, key=cv2.contourArea, reverse=True)[0]\n\trect = cv2.minAreaRect(c)\n\tbox = cv2.cv.BoxPoints(rect) if imutils.is_cv2() else cv2.boxPoints(rect)\n\tbox = np.intp(box)\n\tx, y, w, h = cv2.boundingRect(c)\n\tboxes.append([x,y, x+w,y+h])\n\tcv2.rectangle(thresh, (x,y), (x+w,y+h), 255, 2)\n\tcv2.drawContours(thresh, [c], -1, 128, -1)\n\tboxes = np.asarray(boxes)\n\tleft = np.min(boxes[:,0])",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\trect",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\trect = cv2.minAreaRect(c)\n\tbox = cv2.cv.BoxPoints(rect) if imutils.is_cv2() else cv2.boxPoints(rect)\n\tbox = np.intp(box)\n\tx, y, w, h = cv2.boundingRect(c)\n\tboxes.append([x,y, x+w,y+h])\n\tcv2.rectangle(thresh, (x,y), (x+w,y+h), 255, 2)\n\tcv2.drawContours(thresh, [c], -1, 128, -1)\n\tboxes = np.asarray(boxes)\n\tleft = np.min(boxes[:,0])\n\ttop = np.min(boxes[:,1])",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tbox",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tbox = cv2.cv.BoxPoints(rect) if imutils.is_cv2() else cv2.boxPoints(rect)\n\tbox = np.intp(box)\n\tx, y, w, h = cv2.boundingRect(c)\n\tboxes.append([x,y, x+w,y+h])\n\tcv2.rectangle(thresh, (x,y), (x+w,y+h), 255, 2)\n\tcv2.drawContours(thresh, [c], -1, 128, -1)\n\tboxes = np.asarray(boxes)\n\tleft = np.min(boxes[:,0])\n\ttop = np.min(boxes[:,1])\n\tright = np.max(boxes[:,2])",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tbox",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tbox = np.intp(box)\n\tx, y, w, h = cv2.boundingRect(c)\n\tboxes.append([x,y, x+w,y+h])\n\tcv2.rectangle(thresh, (x,y), (x+w,y+h), 255, 2)\n\tcv2.drawContours(thresh, [c], -1, 128, -1)\n\tboxes = np.asarray(boxes)\n\tleft = np.min(boxes[:,0])\n\ttop = np.min(boxes[:,1])\n\tright = np.max(boxes[:,2])\n\tbottom = np.max(boxes[:,3])",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tboxes",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tboxes = np.asarray(boxes)\n\tleft = np.min(boxes[:,0])\n\ttop = np.min(boxes[:,1])\n\tright = np.max(boxes[:,2])\n\tbottom = np.max(boxes[:,3])\n\t# return the bounding box of the barcode\n\treturn image",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tleft",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tleft = np.min(boxes[:,0])\n\ttop = np.min(boxes[:,1])\n\tright = np.max(boxes[:,2])\n\tbottom = np.max(boxes[:,3])\n\t# return the bounding box of the barcode\n\treturn image",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\ttop",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\ttop = np.min(boxes[:,1])\n\tright = np.max(boxes[:,2])\n\tbottom = np.max(boxes[:,3])\n\t# return the bounding box of the barcode\n\treturn image",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tright",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tright = np.max(boxes[:,2])\n\tbottom = np.max(boxes[:,3])\n\t# return the bounding box of the barcode\n\treturn image",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "\tbottom",
+        "kind": 5,
+        "importPath": "detect",
+        "description": "detect",
+        "peekOfCode": "\tbottom = np.max(boxes[:,3])\n\t# return the bounding box of the barcode\n\treturn image",
+        "detail": "detect",
+        "documentation": {}
+    },
+    {
+        "label": "detect",
+        "kind": 2,
+        "importPath": "detect_dmc",
+        "description": "detect_dmc",
+        "peekOfCode": "def detect(path):\n    global image\n    well = np.array(Image.open(path))\n    well = cv2.cvtColor(well, cv2.COLOR_BGRA2GRAY)\n    harris = cv2.cornerHarris(well, 4, 1, 0.00)\n    cv2.imwrite('b.jpg', harris)\n    x, thr = cv2.threshold(harris, 0.1 * harris.max(), 255, cv2.THRESH_BINARY)\n    thr = thr.astype('uint8')\n    cv2.imwrite('c.jpg', thr)\n    contours, hierarchy = cv2.findContours(thr, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)",
+        "detail": "detect_dmc",
+        "documentation": {}
+    },
+    {
+        "label": "SampleObject",
+        "kind": 6,
+        "importPath": "menu",
+        "description": "menu",
+        "peekOfCode": "class SampleObject:\n    def __init__(self, id, picture, remark):\n        self.id = id\n        self.picture = picture\n        self.remark = remark\ndef menu(name):\n    # Use a breakpoint in the code line below to debug your script.\n    # print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.\n    if name == 1:\n        capture_frame(False)",
+        "detail": "menu",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "menu",
+        "description": "menu",
+        "peekOfCode": "def menu(name):\n    # Use a breakpoint in the code line below to debug your script.\n    # print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.\n    if name == 1:\n        capture_frame(False)\n        areas = []\n        with open(file_path, 'r') as file:\n            for line in file:\n                top_left_x: int = int(line.strip().split(',')[0])\n                top_left_y: int = int(line.strip().split(',')[1])",
+        "detail": "menu",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "menu",
+        "description": "menu",
+        "peekOfCode": "file_path = 'coordinate.txt'\nclass SampleObject:\n    def __init__(self, id, picture, remark):\n        self.id = id\n        self.picture = picture\n        self.remark = remark\ndef menu(name):\n    # Use a breakpoint in the code line below to debug your script.\n    # print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.\n    if name == 1:",
+        "detail": "menu",
+        "documentation": {}
+    },
+    {
+        "label": "on_connect",
+        "kind": 2,
+        "importPath": "mqtt",
+        "description": "mqtt",
+        "peekOfCode": "def on_connect(client, userdata, flags, reason_code, properties):\n    print(f\"Connected with result code {reason_code}\")\n    # Subscribing in on_connect() means that if we lose the connection and\n    # reconnect then subscriptions will be renewed.\n    client.subscribe(\"mqtt/mes/wavesoldering\")\n# Callback running on new message\ndef on_message(client, userdata, msg):\n    # We print each message received\n    print(json.dump(mqtt.MQTTMessage,msg))\n    print(msg.payload)",
+        "detail": "mqtt",
+        "documentation": {}
+    },
+    {
+        "label": "on_message",
+        "kind": 2,
+        "importPath": "mqtt",
+        "description": "mqtt",
+        "peekOfCode": "def on_message(client, userdata, msg):\n    # We print each message received\n    print(json.dump(mqtt.MQTTMessage,msg))\n    print(msg.payload)\n    if str(msg.payload) == \"b'Ready to scan'\":\n          client.publish(\"mqtt/mes/wavesoldering\", \"Scanning\")\n    if str(msg.payload) == \"b'Finish'\":\n        client.publish(\"mqtt/mes/wavesoldering\", \"Done\")\n# Initiate the MQTT client\nclient = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)",
+        "detail": "mqtt",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "mqtt",
+        "description": "mqtt",
+        "peekOfCode": "client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)\nclient.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"192.168.1.213\", 1883, 60)\nclient.loop_forever()",
+        "detail": "mqtt",
+        "documentation": {}
+    },
+    {
+        "label": "client.on_connect",
+        "kind": 5,
+        "importPath": "mqtt",
+        "description": "mqtt",
+        "peekOfCode": "client.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"192.168.1.213\", 1883, 60)\nclient.loop_forever()",
+        "detail": "mqtt",
+        "documentation": {}
+    },
+    {
+        "label": "client.on_message",
+        "kind": 5,
+        "importPath": "mqtt",
+        "description": "mqtt",
+        "peekOfCode": "client.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"192.168.1.213\", 1883, 60)\nclient.loop_forever()",
+        "detail": "mqtt",
+        "documentation": {}
+    },
+    {
+        "label": "get_center",
+        "kind": 2,
+        "importPath": "multiscanner",
+        "description": "multiscanner",
+        "peekOfCode": "def get_center(contour):\n    M = cv2.moments(contour)\n    cX = int(M[\"m10\"] / max(M[\"m00\"], 1e-6))\n    cY = int(M[\"m01\"] / max(M[\"m00\"], 1e-6))\n    return cX, cY\ndef find_rectangles(img):\n    filtered = np.zeros((img.shape[0], img.shape[1], 1), dtype=np.uint8) \n    img = cv2.GaussianBlur(img, (5, 5), 0)\n    for gray in cv2.split(img):\n      for thrs in range(50, 200, 1):",
+        "detail": "multiscanner",
+        "documentation": {}
+    },
+    {
+        "label": "find_rectangles",
+        "kind": 2,
+        "importPath": "multiscanner",
+        "description": "multiscanner",
+        "peekOfCode": "def find_rectangles(img):\n    filtered = np.zeros((img.shape[0], img.shape[1], 1), dtype=np.uint8) \n    img = cv2.GaussianBlur(img, (5, 5), 0)\n    for gray in cv2.split(img):\n      for thrs in range(50, 200, 1):\n          _retval, bin = cv2.threshold(gray, thrs, 255, cv2.THRESH_BINARY)\n          contours, h = cv2.findContours(~bin, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)\n          contours = [contours[i] for i in range(len(contours)) if h[0][i][3] == -1]\n          for cnt in contours:\n              cnt_len = cv2.arcLength(cnt, True)",
+        "detail": "multiscanner",
+        "documentation": {}
+    },
+    {
+        "label": "dist",
+        "kind": 2,
+        "importPath": "multiscanner",
+        "description": "multiscanner",
+        "peekOfCode": "def dist(p1, p2):\n  return math.sqrt((p1[0] - p2[0]) **2 + (p1[1] - p2[1]) ** 2)  \ndef findBarCodes(image):\n  thresh = find_rectangles(image)\n  contours, h = cv2.findContours(thresh, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)\n  contours = sorted([contours[i] for i in range(len(contours)) if h[0][i][3] == -1], key = lambda x: cv2.boundingRect(x)[0])\n  groups = []\n  for cnt in contours:\n    x, y, w, h = cv2.boundingRect(cnt)\n    center_1 = get_center(cnt)",
+        "detail": "multiscanner",
+        "documentation": {}
+    },
+    {
+        "label": "findBarCodes",
+        "kind": 2,
+        "importPath": "multiscanner",
+        "description": "multiscanner",
+        "peekOfCode": "def findBarCodes(image):\n  thresh = find_rectangles(image)\n  contours, h = cv2.findContours(thresh, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)\n  contours = sorted([contours[i] for i in range(len(contours)) if h[0][i][3] == -1], key = lambda x: cv2.boundingRect(x)[0])\n  groups = []\n  for cnt in contours:\n    x, y, w, h = cv2.boundingRect(cnt)\n    center_1 = get_center(cnt)\n    found = False\n    if w * h > 50 and w * h > thresh.shape[0] * thresh.shape[1] / 2:",
+        "detail": "multiscanner",
+        "documentation": {}
+    },
+    {
+        "label": "remove",
+        "kind": 2,
+        "importPath": "remove-dir",
+        "description": "remove-dir",
+        "peekOfCode": "def remove(path):\n    \"\"\"param <path> could either be relative or absolute.\"\"\"\n    if os.path.isfile(path) or os.path.islink(path):\n        os.remove(path)  # remove the file\n    elif os.path.isdir(path):\n        shutil.rmtree(path)  # remove dir and all contains\n    else:\n        raise ValueError(\"file {} is not a file or dir.\".format(path))",
+        "detail": "remove-dir",
+        "documentation": {}
+    },
+    {
+        "label": "read_out_locations_need_to_be_checked",
+        "kind": 2,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "def read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])\n                # top_left_y: int = int(line.strip().split(\",\")[1])\n                # bottom_right_x: int = int(line.strip().split(\",\")[2])\n                # bottom_right_y: int = int(line.strip().split(\",\")[3])\n                # top_left = (top_left_x, top_left_y)\n                # bottom_right = (bottom_right_x, bottom_right_y)",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "scan",
+        "kind": 2,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "def scan():\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]\n    # mixed = list(zip(zip(x, y), zip(x, y)))\n    # areas = select('captured_image.jpg')\n    # if len(areas) > 0:\n    #     with open(\"coordinate.txt\", 'w') as file:o7777777777777ii7oo7o5\n    #                 for item in areas:\n    #                         topLeft = item[0]\n    #                         bottomRight = item[1]",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "on_connect",
+        "kind": 2,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "def on_connect(client, userdata, flags, reason_code, properties):\n    print(f\"Connected with result code {reason_code}\")\n    # Subscribing in on_connect() means that if we lose the connection and\n    # reconnect then subscriptions will be renewed.\n    client.subscribe(\"mqtt/mes/wavesoldering\")\n    client.publish(\"mqtt/mes/wavesoldering\", \"Done\")\n    client.subscribe(\"mqtt/mes/scanner\")\n    client.publish(\"mqtt/mes/scanner\", \"Test\")\n# Callback running on new message\ndef on_message(client, userdata, msg):",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "on_message",
+        "kind": 2,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "def on_message(client, userdata, msg):\n    global busy\n    if not busy:\n        # We print each message received\n        # print(json.dump(mqtt.MQTTMessage,msg))\n        # print(msg.payload)\n        try:\n            draw.rectangle((0, 0, width, height), outline=0, fill=0)\n            # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n            # Write two lines of text.",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "READY",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "READY = 16\n# Set GPIO mode to BCM\n# GPIO.setmode(GPIO.BCM)\n# # Set the pin number you want to monitor\n# # Setup the pin as input\n# # Note the following are only used with SPI:\n# GPIO.setup(READY, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)\n# Raspberry Pi pin configuration:\nRST = None  # on the PiOLED this pin isnt used\n# Note the following are only used with SPI:",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "RST",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "RST = None  # on the PiOLED this pin isnt used\n# Note the following are only used with SPI:\nDC = 23\nSPI_PORT = 0\nSPI_DEVICE = 0\n# Beaglebone Black pin configuration:\n# RST =import json\n# Note the following are only used with SPI:\n# DC = 'P9_15'\n# SPI_PORT = 1",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "DC",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "DC = 23\nSPI_PORT = 0\nSPI_DEVICE = 0\n# Beaglebone Black pin configuration:\n# RST =import json\n# Note the following are only used with SPI:\n# DC = 'P9_15'\n# SPI_PORT = 1\n# SPI_DEVICE = 0\n# 128x32 display with hardware I2C:",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "SPI_PORT",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "SPI_PORT = 0\nSPI_DEVICE = 0\n# Beaglebone Black pin configuration:\n# RST =import json\n# Note the following are only used with SPI:\n# DC = 'P9_15'\n# SPI_PORT = 1\n# SPI_DEVICE = 0\n# 128x32 display with hardware I2C:\ndisp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "SPI_DEVICE",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "SPI_DEVICE = 0\n# Beaglebone Black pin configuration:\n# RST =import json\n# Note the following are only used with SPI:\n# DC = 'P9_15'\n# SPI_PORT = 1\n# SPI_DEVICE = 0\n# 128x32 display with hardware I2C:\ndisp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)\n# Initialize library.",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "disp",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)\n# Initialize library.\ndisp.begin()\n# Clear display.\ndisp.clear()\ndisp.display()\n# Create blank image for drawing.\n# Make sure to create image with mode '1' for 1-bit color.\nwidth = disp.width\nheight = disp.height",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "width = disp.width\nheight = disp.height\nimage_display = Image.new(\"1\", (width, height))\n# Get drawing object to draw on image.\ndraw = ImageDraw.Draw(image_display)\n# Draw a black filled box to clear the image.\ndraw.rectangle((0, 0, width, height), outline=0, fill=0)\n# Draw some shapes.\n# First define some constants to allow easy resizing of shapes.\npadding = -2",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "height = disp.height\nimage_display = Image.new(\"1\", (width, height))\n# Get drawing object to draw on image.\ndraw = ImageDraw.Draw(image_display)\n# Draw a black filled box to clear the image.\ndraw.rectangle((0, 0, width, height), outline=0, fill=0)\n# Draw some shapes.\n# First define some constants to allow easy resizing of shapes.\npadding = -2\ntop = padding",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "image_display",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "image_display = Image.new(\"1\", (width, height))\n# Get drawing object to draw on image.\ndraw = ImageDraw.Draw(image_display)\n# Draw a black filled box to clear the image.\ndraw.rectangle((0, 0, width, height), outline=0, fill=0)\n# Draw some shapes.\n# First define some constants to allow easy resizing of shapes.\npadding = -2\ntop = padding\nbottom = height - padding",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "draw",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "draw = ImageDraw.Draw(image_display)\n# Draw a black filled box to clear the image.\ndraw.rectangle((0, 0, width, height), outline=0, fill=0)\n# Draw some shapes.\n# First define some constants to allow easy resizing of shapes.\npadding = -2\ntop = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "padding",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "padding = -2\ntop = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "top",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "top = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "bottom",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "bottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "x = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "font",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "font = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])\n                # top_left_y: int = int(line.strip().split(\",\")[1])\n                # bottom_right_x: int = int(line.strip().split(\",\")[2])",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "areas",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "areas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])\n                # top_left_y: int = int(line.strip().split(\",\")[1])\n                # bottom_right_x: int = int(line.strip().split(\",\")[2])\n                # bottom_right_y: int = int(line.strip().split(\",\")[3])\n                # top_left = (top_left_x, top_left_y)",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "array_code",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "array_code = []\nareas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\nerror = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\nif error[0] != EnumErrorCode.DBR_OK:\n    print(\"License error: \" + error[1])\n# 2.Create an instance of Barcode Reader.\nreader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "areas",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "areas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\nerror = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\nif error[0] != EnumErrorCode.DBR_OK:\n    print(\"License error: \" + error[1])\n# 2.Create an instance of Barcode Reader.\nreader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():\n    # x = [0, 1000, 2000, 3000]",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "error",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "error = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\nif error[0] != EnumErrorCode.DBR_OK:\n    print(\"License error: \" + error[1])\n# 2.Create an instance of Barcode Reader.\nreader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "reader",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "reader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]\n    # mixed = list(zip(zip(x, y), zip(x, y)))\n    # areas = select('captured_image.jpg')\n    # if len(areas) > 0:\n    #     with open(\"coordinate.txt\", 'w') as file:o7777777777777ii7oo7o5",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "tr",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "tr = []\nglobal busy\nbusy = False\n# Callback running on connection\ndef on_connect(client, userdata, flags, reason_code, properties):\n    print(f\"Connected with result code {reason_code}\")\n    # Subscribing in on_connect() means that if we lose the connection and\n    # reconnect then subscriptions will be renewed.\n    client.subscribe(\"mqtt/mes/wavesoldering\")\n    client.publish(\"mqtt/mes/wavesoldering\", \"Done\")",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "busy",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "busy = False\n# Callback running on connection\ndef on_connect(client, userdata, flags, reason_code, properties):\n    print(f\"Connected with result code {reason_code}\")\n    # Subscribing in on_connect() means that if we lose the connection and\n    # reconnect then subscriptions will be renewed.\n    client.subscribe(\"mqtt/mes/wavesoldering\")\n    client.publish(\"mqtt/mes/wavesoldering\", \"Done\")\n    client.subscribe(\"mqtt/mes/scanner\")\n    client.publish(\"mqtt/mes/scanner\", \"Test\")",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)\nclient.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "client.on_connect",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "client.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True\n#         tr = scan()",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "client.on_message",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "client.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True\n#         tr = scan()\n#         busy = False",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "cam",
+        "kind": 5,
+        "importPath": "simpleCV",
+        "description": "simpleCV",
+        "peekOfCode": "cam = Camera()\n# Loop to continuously get images\nwhile True:\n    # Get Image from camera\n    img = cam.getImage()\n    # Make image black and white\n    img = img.binarize()\n    # Draw the text \"Hello World\" on image\n    img.drawText(\"Hello World!\")\n    # Show the image",
+        "detail": "simpleCV",
+        "documentation": {}
+    },
+    {
+        "label": "decode",
+        "kind": 2,
+        "importPath": "zbarscanner",
+        "description": "zbarscanner",
+        "peekOfCode": "def decode(image):\n    # decodes all barcodes from an image\n    pyzbar.ZBarConfig(0)\n    decoded_objects = pyzbar.decode(image)\n    for obj in decoded_objects:\n        # draw the barcode\n        print(\"detected barcode:\", obj)\n        image = draw_barcode(obj, image)\n        # print barcode type & data\n        print(\"Type:\", obj.type)",
+        "detail": "zbarscanner",
+        "documentation": {}
+    },
+    {
+        "label": "draw_barcode",
+        "kind": 2,
+        "importPath": "zbarscanner",
+        "description": "zbarscanner",
+        "peekOfCode": "def draw_barcode(decoded, image):\n    # n_points = len(decoded.polygon)\n    # for i in range(n_points):\n    #     image = cv2.line(image, decoded.polygon[i], decoded.polygon[(i+1) % n_points], color=(0, 255, 0), thickness=5)\n    # uncomment above and comment below if you want to draw a polygon and not a rectangle\n    image = cv2.rectangle(image, (decoded.rect.left, decoded.rect.top), \n                            (decoded.rect.left + decoded.rect.width, decoded.rect.top + decoded.rect.height),\n                            color=(0, 255, 0),\n                            thickness=5)\n    return image",
+        "detail": "zbarscanner",
+        "documentation": {}
+    }
+]
