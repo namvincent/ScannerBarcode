@@ -191,6 +191,14 @@
         "documentation": {}
     },
     {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
         "label": "base64",
         "kind": 6,
         "isExtraImport": true,
@@ -329,11 +337,29 @@
         "documentation": {}
     },
     {
-        "label": "decode",
-        "importPath": "pyzbar.pyzbar",
-        "description": "pyzbar.pyzbar",
+        "label": "re",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "pyzbar.pyzbar",
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "quote",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -685,6 +711,15 @@
         "documentation": {}
     },
     {
+        "label": "show_message_OLED",
+        "kind": 2,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "def show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)\n        # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n        # Write two lines of text.\n        draw.text((x, top), text, font=font, fill=255)\n        # Display image.\n        disp.image(image_display)\n        disp.display()",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
         "label": "read_out_locations_need_to_be_checked",
         "kind": 2,
         "importPath": "scanner",
@@ -694,11 +729,20 @@
         "documentation": {}
     },
     {
+        "label": "delete_files_in_directory",
+        "kind": 2,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "def delete_files_in_directory(directory):\n    # Traverse the directory recursively\n    for root, dirs, files in os.walk(directory):\n        # Iterate through all files in the current directory\n        for file in files:\n            file_path = os.path.join(root, file)\n            try:\n                # Attempt to remove the file\n                os.remove(file_path)\n                print(f\"Deleted file: {file_path}\")",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
         "label": "scan",
         "kind": 2,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "def scan():\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]\n    # mixed = list(zip(zip(x, y), zip(x, y)))\n    # areas = select('captured_image.jpg')\n    # if len(areas) > 0:\n    #     with open(\"coordinate.txt\", 'w') as file:o7777777777777ii7oo7o5\n    #                 for item in areas:\n    #                         topLeft = item[0]\n    #                         bottomRight = item[1]",
+        "peekOfCode": "def scan(time_now):\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]\n    # mixed = list(zip(zip(x, y), zip(x, y)))\n    # areas = select('captured_image.jpg')\n    # if len(areas) > 0:\n    #     with open(\"coordinate.txt\", 'w') as file:o7777777777777ii7oo7o5\n    #                 for item in areas:\n    #                         topLeft = item[0]\n    #                         bottomRight = item[1]",
         "detail": "scanner",
         "documentation": {}
     },
@@ -707,7 +751,7 @@
         "kind": 2,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "def on_connect(client, userdata, flags, reason_code, properties):\n    print(f\"Connected with result code {reason_code}\")\n    # Subscribing in on_connect() means that if we lose the connection and\n    # reconnect then subscriptions will be renewed.\n    client.subscribe(\"mqtt/mes/wavesoldering\")\n    client.publish(\"mqtt/mes/wavesoldering\", \"Done\")\n    client.subscribe(\"mqtt/mes/scanner\")\n    client.publish(\"mqtt/mes/scanner\", \"Test\")\n# Callback running on new message\ndef on_message(client, userdata, msg):",
+        "peekOfCode": "def on_connect(client, userdata, flags, reason_code, properties):\n    print(f\"Connected with result code {reason_code}\")\n    # Subscribing in on_connect() means that if we lose the connection and\n    # reconnect then subscriptions will be renewed.\n    client.subscribe(\"mqtt/mes/wavesoldering\")\n    client.publish(\"mqtt/mes/wavesoldering\", \"Done\")\n    client.subscribe(\"mqtt/mes/scanner\")\n    client.publish(\"mqtt/mes/scanner\", \"Test\")\nglobal area\n# Callback running on new message",
         "detail": "scanner",
         "documentation": {}
     },
@@ -716,7 +760,7 @@
         "kind": 2,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "def on_message(client, userdata, msg):\n    global busy\n    if not busy:\n        # We print each message received\n        # print(json.dump(mqtt.MQTTMessage,msg))\n        # print(msg.payload)\n        try:\n            draw.rectangle((0, 0, width, height), outline=0, fill=0)\n            # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n            # Write two lines of text.",
+        "peekOfCode": "def on_message(client, userdata, msg):\n    global busy\n    if not busy:\n        # We print each message received\n        # print(json.dump(mqtt.MQTTMessage,msg))\n        # print(msg.payload)\n        if str(msg.payload) == \"b'Ready to scan'\":\n            busy = True\n            # time.sleep(3)\n            client.publish(\"mqtt/mes/wavesoldering\", \"Scanning\")",
         "detail": "scanner",
         "documentation": {}
     },
@@ -815,7 +859,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "padding = -2\ntop = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):",
+        "peekOfCode": "padding = -2\ntop = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\nre_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"",
         "detail": "scanner",
         "documentation": {}
     },
@@ -824,7 +868,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "top = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:",
+        "peekOfCode": "top = padding\nbottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\nre_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"\nre2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"",
         "detail": "scanner",
         "documentation": {}
     },
@@ -833,7 +877,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "bottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:",
+        "peekOfCode": "bottom = height - padding\n# Move left to right keeping track of the current x position for drawing shapes.\nx = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\nre_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"\nre2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"\nsmdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"",
         "detail": "scanner",
         "documentation": {}
     },
@@ -842,7 +886,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "x = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])",
+        "peekOfCode": "x = 0\n# Load default font.\nfont = ImageFont.load_default()\nglobal areas\nareas = []\nre_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"\nre2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"\nsmdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"\nre_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)",
         "detail": "scanner",
         "documentation": {}
     },
@@ -851,7 +895,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "font = ImageFont.load_default()\nglobal areas\nareas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])\n                # top_left_y: int = int(line.strip().split(\",\")[1])\n                # bottom_right_x: int = int(line.strip().split(\",\")[2])",
+        "peekOfCode": "font = ImageFont.load_default()\nglobal areas\nareas = []\nre_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"\nre2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"\nsmdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"\nre_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)",
         "detail": "scanner",
         "documentation": {}
     },
@@ -860,7 +904,70 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "areas = []\ndef read_out_locations_need_to_be_checked(coordinate_file_path):\n    try:\n        with open(coordinate_file_path, \"r\") as file:\n            for line in file:\n                # top_left_x: int = int(line.strip().split(\",\")[0])\n                # top_left_y: int = int(line.strip().split(\",\")[1])\n                # bottom_right_x: int = int(line.strip().split(\",\")[2])\n                # bottom_right_y: int = int(line.strip().split(\",\")[3])\n                # top_left = (top_left_x, top_left_y)",
+        "peekOfCode": "areas = []\nre_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"\nre2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"\nsmdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"\nre_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "re_pattern",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "re_pattern = r\"^\\d{7}([-])\\d{7}([-])\\d{6}([-])\\d{3}$\"\nre2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"\nsmdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"\nre_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "re2_pattern",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "re2_pattern = r\"^\\d{8}([-])\\d{7}([-])\\d{7}([-])\\d{3}$\"\nsmdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"\nre_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "smdReg_pattern",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "smdReg_pattern = r\"^\\d{7}([-])\\d{5}([-])\\S{1}$\"\nre_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)\n        # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "re_options",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "re_options = re.IGNORECASE\nre_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)\n        # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n        # Write two lines of text.",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "re_obj",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "re_obj = re.compile(re_pattern, re_options)\nre2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)\n        # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n        # Write two lines of text.\n        draw.text((x, top), text, font=font, fill=255)",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "re2_obj",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "re2_obj = re.compile(re2_pattern, re_options)\nsmdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)\n        # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n        # Write two lines of text.\n        draw.text((x, top), text, font=font, fill=255)\n        # Display image.",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "smdReg_obj",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "smdReg_obj = re.compile(smdReg_pattern, re_options)\ndef show_message_OLED(text):\n    try:\n        disp.clear()\n        draw.rectangle((0, 0, width, height), outline=0, fill=0)\n        # Shell scripts for system monitoring from here : https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-disk-usage-and-cpu-load\n        # Write two lines of text.\n        draw.text((x, top), text, font=font, fill=255)\n        # Display image.\n        disp.image(image_display)",
         "detail": "scanner",
         "documentation": {}
     },
@@ -869,34 +976,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "array_code = []\nareas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\nerror = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\nif error[0] != EnumErrorCode.DBR_OK:\n    print(\"License error: \" + error[1])\n# 2.Create an instance of Barcode Reader.\nreader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():",
-        "detail": "scanner",
-        "documentation": {}
-    },
-    {
-        "label": "areas",
-        "kind": 5,
-        "importPath": "scanner",
-        "description": "scanner",
-        "peekOfCode": "areas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\nerror = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\nif error[0] != EnumErrorCode.DBR_OK:\n    print(\"License error: \" + error[1])\n# 2.Create an instance of Barcode Reader.\nreader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():\n    # x = [0, 1000, 2000, 3000]",
-        "detail": "scanner",
-        "documentation": {}
-    },
-    {
-        "label": "error",
-        "kind": 5,
-        "importPath": "scanner",
-        "description": "scanner",
-        "peekOfCode": "error = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\nif error[0] != EnumErrorCode.DBR_OK:\n    print(\"License error: \" + error[1])\n# 2.Create an instance of Barcode Reader.\nreader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]",
-        "detail": "scanner",
-        "documentation": {}
-    },
-    {
-        "label": "reader",
-        "kind": 5,
-        "importPath": "scanner",
-        "description": "scanner",
-        "peekOfCode": "reader = BarcodeReader.get_instance()\nif reader == None:\n    raise BarcodeReaderError(\"Get instance failed\")\ndef scan():\n    # x = [0, 1000, 2000, 3000]\n    # y = [0, 600, 1200, 1800]\n    # mixed = list(zip(zip(x, y), zip(x, y)))\n    # areas = select('captured_image.jpg')\n    # if len(areas) > 0:\n    #     with open(\"coordinate.txt\", 'w') as file:o7777777777777ii7oo7o5",
+        "peekOfCode": "array_code = []\n# error = BarcodeReader.init_license(\"DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9\")\n# if error[0] != EnumErrorCode.DBR_OK:\n#     print(\"License error: \" + error[1])\n# # 2.Create an instance of Barcode Reader.\n# reader = BarcodeReader.get_instance()\n# if reader == None:\n#     raise BarcodeReaderError(\"Get instance failed\")\ndef delete_files_in_directory(directory):\n    # Traverse the directory recursively",
         "detail": "scanner",
         "documentation": {}
     },
@@ -923,7 +1003,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)\nclient.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True",
+        "peekOfCode": "client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)\nclient.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\nareas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:",
         "detail": "scanner",
         "documentation": {}
     },
@@ -932,7 +1012,7 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "client.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True\n#         tr = scan()",
+        "peekOfCode": "client.on_connect = on_connect\nclient.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\nareas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True",
         "detail": "scanner",
         "documentation": {}
     },
@@ -941,7 +1021,16 @@
         "kind": 5,
         "importPath": "scanner",
         "description": "scanner",
-        "peekOfCode": "client.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True\n#         tr = scan()\n#         busy = False",
+        "peekOfCode": "client.on_message = on_message\n# Replace `<USER>`, `<PASSWORD>` and `<XXXXXX>.stackhero-network.com` with your server credentials.\nclient.username_pw_set(\"mesclient\", \"1\")\nclient.connect(\"10.100.27.67\", 1883, 60)\nareas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True\n#         tr = scan()",
+        "detail": "scanner",
+        "documentation": {}
+    },
+    {
+        "label": "areas",
+        "kind": 5,
+        "importPath": "scanner",
+        "description": "scanner",
+        "peekOfCode": "areas = read_out_locations_need_to_be_checked(\"coordinate.txt\")\n# def pin_event(channel):\n#     global busy\n#     if GPIO.input(READY) == 1:\n#         busy = True\n#         tr = scan()\n#         busy = False\n#         # If pin is high\n# GPIO.add_event_detect(\n#     READY,",
         "detail": "scanner",
         "documentation": {}
     },
